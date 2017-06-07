@@ -1,0 +1,6 @@
+docker run  \
+    -d  \
+    -p 1337 \
+    --device=/dev/ttyUSB0 \
+    --name ser2net  \
+    johnnyletrois/ser2net
